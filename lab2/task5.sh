@@ -23,8 +23,7 @@ do
                 line2=$(awk '{print "PID="$1" : PPID="$2" : ART="$3}' <<< $line)
                 echo $line2 >> $fileOut                                  
         else                                                                 
-                m=$(echo "scale=4; $m/$count" | bc)                          
-                                                                             
+                m=$(echo "scale=4; $m/$count" | bc)                                                                            
                 echo "Average_Sleeping_Children_of_PatientID="$prev_ppid" is "$m >> $fileOut
                 prev_ppid=$ppid                                              
                 count=1                                                      
