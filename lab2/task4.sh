@@ -1,7 +1,7 @@
 #!/bin/bash
                                                                              
 for pid in $(ps -eo pid | sed 1d)                                            
-do                                                                           
+do                                                           
                                                                              
         fs="/proc/"$pid"/status"                                    
         fsc="/proc/"$pid"/sched"                                      
