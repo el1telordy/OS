@@ -1,6 +1,6 @@
 #!/bin/bash
 
-bash task4Mod.sh
+bash task4.sh
 
 fileIn="res4.txt"
 fileOut="res5.txt"
