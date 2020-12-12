@@ -1,3 +1,0 @@
-[120756.263358] [2311411]     0 2311411   426080   291556  3047424    78975             0 mem.sh
-[120756.263368] Out of memory: Killed process 2311411 (mem.sh) total-vm:1704320kB, anon-rss:1166224kB, file-rss:0kB, shmem-rss:0kB, UID:0
-[120756.321697] oom_reaper: reaped process 2311411 (mem.sh), now anon-rss:0kB, file-rss:0kB, shmem-rss:0kB
