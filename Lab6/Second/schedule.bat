@@ -1,0 +1,1 @@
+schtasks /Create /SC minute /TN l6t2 /TR C:\Lab6\Second\copy.bat

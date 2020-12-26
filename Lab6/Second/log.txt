@@ -1,0 +1,6 @@
+Comparing files C:\WINDOWS\explorer.exe and \\192.168.88.230\TEMP\EXPLORER.EXE
+FC: no differences encountered
+
+Comparing files C:\WINDOWS\out.mp4 and \\192.168.88.230\TEMP\OUT.MP4
+FC: no differences encountered
+

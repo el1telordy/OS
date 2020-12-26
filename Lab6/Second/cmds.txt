@@ -1,1 +1,5 @@
 net use \\192.168.88.230\temp
+schtasks /Create /SC minute /TN l6t2 /TR C:\Lab6\Second\copy.bat
+schtasks /Delete /TN l6t2
+fc C:\Windows\explorer.mp4 \\192.168.88.230\temp\explorer.mp4
+fc C:\Windows\out.mp4 \\192.168.88.230\temp\out.mp4

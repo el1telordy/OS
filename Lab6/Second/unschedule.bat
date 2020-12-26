@@ -1,0 +1,1 @@
+schtasks /Delete /TN l6t2
