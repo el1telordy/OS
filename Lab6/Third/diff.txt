@@ -1,0 +1,10 @@
+Comparing files C:\LAB6\THIRD\services.txt and C:\LAB6\THIRD\UPDATEDSERVICES.TXT
+***** C:\LAB6\THIRD\services.txt
+SERVICE_NAME: wscsvc
+SERVICE_NAME: WSearch
+SERVICE_NAME: XblAuthManager
+***** C:\LAB6\THIRD\UPDATEDSERVICES.TXT
+SERVICE_NAME: wscsvc
+SERVICE_NAME: XblAuthManager
+*****
+

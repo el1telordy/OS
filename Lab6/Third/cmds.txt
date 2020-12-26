@@ -1,0 +1,2 @@
+sc queryex type=service | findstr /r "SERVICE_NAME" > services.txt
+sc stop WSearch

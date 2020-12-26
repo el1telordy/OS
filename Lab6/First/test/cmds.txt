@@ -1,0 +1,10 @@
+cd C:/
+mkdir Lab6
+systeminfo | findstr /B /C:"OS Name" /C:"OS Version" > systeminfo.txt
+systeminfo | findstr /R /C:"Memory" > meminfo.txt
+wmic logicaldisk get Name, VolumeName, Size, FreeSpace > wmic.txt
+mkdir test
+xcopy /i "C:\Lab6\First" "C:\Lab6\First\test"
+cd test
+type C:\Lab6\First\* > C:\Lab6\First\test\cat.txt
+for /f "skip=1" %%i in ('dir test /b/a-d/o-d/t:c') do del test\%%i
