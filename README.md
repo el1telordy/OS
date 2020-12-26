@@ -5,5 +5,6 @@
 - [x] [Lab 3: Pipes](https://github.com/el1telordy/OS/tree/master/Lab3)
 - [x] [Lab 4: File System](https://github.com/el1telordy/OS/tree/master/Lab4)
 - [x] [Lab 5: Memory Research](https://github.com/el1telordy/OS/tree/master/Lab5)
+- [x] [Lab 6: Windows](https://github.com/el1telordy/OS/tree/master/Lab6)
 
 _**Work in progress ☭**_
